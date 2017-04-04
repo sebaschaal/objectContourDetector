@@ -18,25 +18,25 @@ Please follow the instructions below to run the code.
 ## Training on PASCAL
 * Download the pre-processed dataset by running the script
 ```
-./data/PASCAL/get_pascal_training_data.sh
+bash data/PASCAL/get_pascal_training_data.sh
 ```
 * Download the VGG16 net for initialization by running the script
 ```
-./models/get_vgg16_net.sh
+bash models/get_vgg16_net.sh
 ```
 * Start training by running the script
 ```
-./code/train.sh
+bash code/train.sh
 ```
 * Test the learned network by running the script
 ```
-./code/test.sh
+bash code/test.sh
 ```
 
 ## Testing the pre-trained model
 * Download the pre-trained model by running the script
 ```
-./models/PASCAL/get_pretrained_pascal_net.sh
+./models/get_pretrained_pascal_contour_net.sh
 ```
 
 ## Citation
