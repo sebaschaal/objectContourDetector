@@ -36,7 +36,7 @@ bash code/test.sh
 ## Testing the pre-trained model
 * Download the pre-trained model by running the script
 ```
-./models/get_pretrained_pascal_contour_net.sh
+bash models/get_pretrained_pascal_contour_net.sh
 ```
 
 ## Citation
