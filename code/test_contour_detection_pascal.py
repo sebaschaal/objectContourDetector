@@ -128,9 +128,9 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
-    prototxt = os.path.join(ROOT_DIR, 'models', 'PASCAL',
+    prototxt = os.path.join(ROOT_DIR, 'models',
                             '{:s}-test.prototxt'.format(NETS[args.infer_net][1]))
-    caffemodel = os.path.join(ROOT_DIR, 'models', 'PASCAL',
+    caffemodel = os.path.join(ROOT_DIR, 'models',
                               '{:s}-{:s}.caffemodel'.format(NETS[args.infer_net][1], NETS[args.infer_net][2]))
 
     if not os.path.isfile(caffemodel):
